@@ -18,3 +18,8 @@ const k = kaplay({
 });
 
 export default k;
+
+// Add this part to fix the error in sonic.js
+export const gameState = {
+    selectedCharacter: "sonic" 
+};
